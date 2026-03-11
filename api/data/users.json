@@ -1,0 +1,27 @@
+[
+  {
+    "id": "user1",
+    "email": "consumer@pamarkert.com",
+    "password": "password123",
+    "name": "John Doe",
+    "role": "consumer",
+    "phone": "+1234567899",
+    "address": "123 Main St"
+  },
+  {
+    "id": "merchant1",
+    "email": "merchant@pamarkert.com",
+    "password": "password123",
+    "name": "Store Owner",
+    "role": "merchant",
+    "storeId": "store1"
+  },
+  {
+    "id": "merchant2",
+    "email": "grocery@pamarkert.com",
+    "password": "password123",
+    "name": "Grocery Owner",
+    "role": "merchant",
+    "storeId": "store2"
+  }
+]

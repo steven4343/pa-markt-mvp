@@ -1,0 +1,34 @@
+[
+  {
+    "id": "store1",
+    "name": "TechZone Electronics",
+    "description": "Your one-stop shop for latest smartphones and computer parts",
+    "logo": "techrader",
+    "address": "123 Tech Street",
+    "phone": "+1234567890"
+  },
+  {
+    "id": "store2",
+    "name": "Fresh Mart Grocery",
+    "description": "Fresh groceries delivered to your doorstep",
+    "logo": "grocery",
+    "address": "456 Market Road",
+    "phone": "+1234567891"
+  },
+  {
+    "id": "store3",
+    "name": "Beauty Haven",
+    "description": "Premium perfumes and beauty products",
+    "logo": "lotion",
+    "address": "789 Beauty Lane",
+    "phone": "+1234567892"
+  },
+  {
+    "id": "store4",
+    "name": "Hardware Pro",
+    "description": "Quality hardware and building materials",
+    "logo": "hardware apliances",
+    "address": "321 Builder Ave",
+    "phone": "+1234567893"
+  }
+]

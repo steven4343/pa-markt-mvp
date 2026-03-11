@@ -1,0 +1,497 @@
+[
+  {
+    "id": "prod1",
+    "storeId": "store1",
+    "name": "iPhone 11",
+    "description": "Latest iPhone 11 with amazing camera",
+    "price": 699.99,
+    "image": "apple 11",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod2",
+    "storeId": "store1",
+    "name": "iPhone X",
+    "description": "Classic iPhone X in excellent condition",
+    "price": 549.99,
+    "image": "apple X",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod3",
+    "storeId": "store1",
+    "name": "Smartphone Pro",
+    "description": "High-end smartphone with all features",
+    "price": 899.99,
+    "image": "cell smart",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod4",
+    "storeId": "store1",
+    "name": "Flip Mini",
+    "description": "Compact flip phone for easy use",
+    "price": 199.99,
+    "image": "flipmini mobile",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod5",
+    "storeId": "store1",
+    "name": "Foldable Mobile",
+    "description": "Latest foldable technology",
+    "price": 1299.99,
+    "image": "foldable mobile",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod6",
+    "storeId": "store1",
+    "name": "Google Pixel",
+    "description": "Pure Android experience",
+    "price": 599.99,
+    "image": "google pixel",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod7",
+    "storeId": "store1",
+    "name": "Nokia Classic",
+    "description": "Durable classic phone",
+    "price": 89.99,
+    "image": "nokia",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod8",
+    "storeId": "store1",
+    "name": "PC Battery",
+    "description": "Long-lasting laptop battery",
+    "price": 49.99,
+    "image": "pc batter",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod9",
+    "storeId": "store1",
+    "name": "Phone Battery",
+    "description": "Replacement phone battery",
+    "price": 29.99,
+    "image": "phone batter",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod10",
+    "storeId": "store1",
+    "name": "Motherboard",
+    "description": "High-performance motherboard",
+    "price": 149.99,
+    "image": "motherboard",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod11",
+    "storeId": "store1",
+    "name": "RAM 8GB",
+    "description": "Fast DDR4 RAM module",
+    "price": 59.99,
+    "image": "ram",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod12",
+    "storeId": "store1",
+    "name": "ROM 256GB",
+    "description": "High-speed storage drive",
+    "price": 79.99,
+    "image": "rom",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod13",
+    "storeId": "store1",
+    "name": "Computer Components",
+    "description": "Complete set of PC components",
+    "price": 399.99,
+    "image": "com components",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod14",
+    "storeId": "store1",
+    "name": "Computer Parts",
+    "description": "Quality computer parts",
+    "price": 299.99,
+    "image": "computerparts",
+    "category": "Electronics"
+  },
+  {
+    "id": "prod15",
+    "storeId": "store2",
+    "name": "Fresh Bananas",
+    "description": "Organic bananas fresh from farm",
+    "price": 2.99,
+    "image": "banaan",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod16",
+    "storeId": "store2",
+    "name": "Farm Eggs",
+    "description": "Fresh eggs from local farms",
+    "price": 4.99,
+    "image": "eggs",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod17",
+    "storeId": "store2",
+    "name": "Mixed Eggs",
+    "description": "Assorted eggs pack",
+    "price": 5.99,
+    "image": "eeggs",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod18",
+    "storeId": "store2",
+    "name": "Fresh Fruits",
+    "description": "Mix of seasonal fruits",
+    "price": 8.99,
+    "image": "fruits",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod19",
+    "storeId": "store2",
+    "name": "Vegetables",
+    "description": "Fresh organic vegetables",
+    "price": 6.99,
+    "image": "veges",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod20",
+    "storeId": "store2",
+    "name": "Spices Pack",
+    "description": "Assorted spices for cooking",
+    "price": 7.99,
+    "image": "spices",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod21",
+    "storeId": "store2",
+    "name": "More Beans",
+    "description": "Protein-rich beans",
+    "price": 3.99,
+    "image": "morebean",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod22",
+    "storeId": "store2",
+    "name": "Peanut Butter",
+    "description": "Creamy peanut butter",
+    "price": 4.49,
+    "image": "peanut better",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod23",
+    "storeId": "store2",
+    "name": "Mayonnaise",
+    "description": "Premium mayonnaise",
+    "price": 3.49,
+    "image": "mayonaise",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod24",
+    "storeId": "store2",
+    "name": "Mozoe Juice",
+    "description": "Refreshing fruit juice",
+    "price": 2.49,
+    "image": "mozoe juice",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod25",
+    "storeId": "store2",
+    "name": "Tides Detergent",
+    "description": "Cleaning detergent",
+    "price": 8.99,
+    "image": "tides",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod26",
+    "storeId": "store2",
+    "name": "Ragaram Rice",
+    "description": "Premium quality rice",
+    "price": 15.99,
+    "image": "ragaram",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod27",
+    "storeId": "store2",
+    "name": "Wholesale Grocery Bundle",
+    "description": "Bulk grocery items",
+    "price": 49.99,
+    "image": "wholesale grocery",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod28",
+    "storeId": "store2",
+    "name": "Grocery Essentials",
+    "description": "Daily grocery items",
+    "price": 19.99,
+    "image": "grocery",
+    "category": "Groceries"
+  },
+  {
+    "id": "prod29",
+    "storeId": "store3",
+    "name": "SL Perfume",
+    "description": "Long-lasting fragrance",
+    "price": 24.99,
+    "image": "Sl perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod30",
+    "storeId": "store3",
+    "name": "Baby Lotion",
+    "description": "Gentle baby care lotion",
+    "price": 8.99,
+    "image": "babylotion",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod31",
+    "storeId": "store3",
+    "name": "Charm Perfume",
+    "description": "Charming scent for women",
+    "price": 29.99,
+    "image": "charm perfum",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod32",
+    "storeId": "store3",
+    "name": "Body Lotion",
+    "description": "Moisturizing body lotion",
+    "price": 7.99,
+    "image": "lotion",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod33",
+    "storeId": "store3",
+    "name": "Lotion Supplies",
+    "description": "Various lotion products",
+    "price": 19.99,
+    "image": "lotion supplies",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod34",
+    "storeId": "store3",
+    "name": "Nashwa Perfume",
+    "description": "Exotic fragrance",
+    "price": 34.99,
+    "image": "nashwa perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod35",
+    "storeId": "store3",
+    "name": "Ninea Lotion",
+    "description": "Skin care lotion",
+    "price": 9.99,
+    "image": "ninea lotion",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod36",
+    "storeId": "store3",
+    "name": "Odole Perfume",
+    "description": "Fresh fragrance",
+    "price": 27.99,
+    "image": "odole perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod37",
+    "storeId": "store3",
+    "name": "Pink Perfume",
+    "description": "Floral scent",
+    "price": 22.99,
+    "image": "ppink perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod38",
+    "storeId": "store3",
+    "name": "Sovazze Perfume",
+    "description": "Luxury fragrance",
+    "price": 39.99,
+    "image": "sovazze perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod39",
+    "storeId": "store3",
+    "name": "Uvage Perfume",
+    "description": "Designer perfume",
+    "price": 44.99,
+    "image": "uvage perfume",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod40",
+    "storeId": "store3",
+    "name": "Vaseline",
+    "description": "Moisturizing jelly",
+    "price": 5.99,
+    "image": "vaseline",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod41",
+    "storeId": "store3",
+    "name": "Aveena Lotion",
+    "description": "Oat-based skincare",
+    "price": 11.99,
+    "image": "aveena",
+    "category": "Beauty"
+  },
+  {
+    "id": "prod42",
+    "storeId": "store4",
+    "name": "Bolts and Nuts",
+    "description": "Assorted hardware fasteners",
+    "price": 12.99,
+    "image": "bolts and nuts",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod43",
+    "storeId": "store4",
+    "name": "Cable Tiles",
+    "description": "Cable management tiles",
+    "price": 8.99,
+    "image": "cable tiles",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod44",
+    "storeId": "store4",
+    "name": "Industrial Glue",
+    "description": "Strong adhesive",
+    "price": 6.99,
+    "image": "glue",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod45",
+    "storeId": "store4",
+    "name": "Hardware Appliances",
+    "description": "Various hardware tools",
+    "price": 89.99,
+    "image": "hardware apliances",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod46",
+    "storeId": "store4",
+    "name": "Pipe Co",
+    "description": "Quality pipes",
+    "price": 24.99,
+    "image": "pipeco",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod47",
+    "storeId": "store4",
+    "name": "Pipe Connector",
+    "description": "Pipe fitting connector",
+    "price": 4.99,
+    "image": "pipeconnector",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod48",
+    "storeId": "store4",
+    "name": "Building Pipes",
+    "description": "Construction pipes",
+    "price": 34.99,
+    "image": "pipes",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod49",
+    "storeId": "store4",
+    "name": "Stove Parts",
+    "description": "Replacement stove parts",
+    "price": 19.99,
+    "image": "stove parts",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod50",
+    "storeId": "store4",
+    "name": "Wire Cutter",
+    "description": "Professional wire cutting tool",
+    "price": 14.99,
+    "image": "wirecuttuter",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod51",
+    "storeId": "store4",
+    "name": "HH Drive",
+    "description": "Heavy duty drive",
+    "price": 29.99,
+    "image": "HH drive",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod52",
+    "storeId": "store4",
+    "name": "RRAM",
+    "description": "Memory module",
+    "price": 39.99,
+    "image": "RRam",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod53",
+    "storeId": "store4",
+    "name": "Suppliers Bundle",
+    "description": "Hardware supplier pack",
+    "price": 99.99,
+    "image": "suppliers",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod54",
+    "storeId": "store4",
+    "name": "Trolley",
+    "description": "Utility trolley",
+    "price": 45.99,
+    "image": "trolley",
+    "category": "Hardware"
+  },
+  {
+    "id": "prod55",
+    "storeId": "store4",
+    "name": "Economy Wholesale",
+    "description": "Bulk hardware items",
+    "price": 149.99,
+    "image": "economy wholesale",
+    "category": "Hardware"
+  }
+]
