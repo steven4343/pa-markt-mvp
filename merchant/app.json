@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Pa Markert Consumer",
-    "slug": "pa-markert-consumer",
+    "name": "Pa Markert Merchant",
+    "slug": "pa-markert-merchant",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
@@ -16,14 +16,14 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.pamarkert.consumer"
+      "bundleIdentifier": "com.pamarkert.merchant"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.pamarkert.consumer"
+      "package": "com.pamarkert.merchant"
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png",
