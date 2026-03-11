@@ -14,6 +14,8 @@ import ProductDetailScreen from '../screens/ProductDetailScreen';
 import CartScreen from '../screens/CartScreen';
 import OrdersScreen from '../screens/OrdersScreen';
 import OrderDetailScreen from '../screens/OrderDetailScreen';
+import ServicesScreen from '../screens/ServicesScreen';
+import ServiceDetailScreen from '../screens/ServiceDetailScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -32,6 +34,10 @@ const CartIcon = ({ focused }) => {
 
 const OrdersIcon = ({ focused }) => (
   <Text style={[styles.iconText, focused && styles.iconTextFocused]}>Orders</Text>
+);
+
+const ServicesIcon = ({ focused }) => (
+  <Text style={[styles.iconText, focused && styles.iconTextFocused]}>Services</Text>
 );
 
 const HomeIcon = ({ focused }) => (
@@ -85,6 +91,14 @@ const AppNavigator = () => {
             tabBarIcon: OrdersIcon,
           }}
         />
+        <Tab.Screen 
+          name="Services" 
+          component={ServicesStack}
+          options={{ 
+            tabBarLabel: 'Services',
+            tabBarIcon: ServicesIcon,
+          }}
+        />
       </Tab.Navigator>
     </NavigationContainer>
   );
@@ -114,6 +128,19 @@ const OrdersStack = () => (
   >
     <Stack.Screen name="OrdersList" component={OrdersScreen} options={{ title: 'My Orders' }} />
     <Stack.Screen name="OrderDetail" component={OrderDetailScreen} options={{ title: 'Order Details' }} />
+  </Stack.Navigator>
+);
+
+const ServicesStack = () => (
+  <Stack.Navigator
+    screenOptions={{
+      headerStyle: { backgroundColor: '#fff' },
+      headerTintColor: '#333',
+      headerTitleStyle: { fontWeight: '600' },
+    }}
+  >
+    <Stack.Screen name="ServicesList" component={ServicesScreen} options={{ title: 'Services' }} />
+    <Stack.Screen name="ServiceDetail" component={ServiceDetailScreen} options={{ title: 'Book Service' }} />
   </Stack.Navigator>
 );
 

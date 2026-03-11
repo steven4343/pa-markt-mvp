@@ -1,0 +1,42 @@
+[
+  {
+    "id": "service1",
+    "name": "Plumbing Repair",
+    "category": "plumbing",
+    "description": "Fix leaks, pipe installations, and plumbing repairs",
+    "basePrice": 50,
+    "providerId": "sp1"
+  },
+  {
+    "id": "service2",
+    "name": "Electrical Wiring",
+    "category": "electrical",
+    "description": "New wiring installations and electrical repairs",
+    "basePrice": 75,
+    "providerId": "sp2"
+  },
+  {
+    "id": "service3",
+    "name": "Home Cleaning",
+    "category": "cleaning",
+    "description": "Full home cleaning services",
+    "basePrice": 60,
+    "providerId": "sp3"
+  },
+  {
+    "id": "service4",
+    "name": "AC Repair",
+    "category": "hvac",
+    "description": "Air conditioning installation and repair",
+    "basePrice": 80,
+    "providerId": "sp1"
+  },
+  {
+    "id": "service5",
+    "name": "Carpentry",
+    "category": "carpentry",
+    "description": "Furniture repair and custom woodwork",
+    "basePrice": 55,
+    "providerId": "sp1"
+  }
+]

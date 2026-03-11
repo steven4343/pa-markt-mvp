@@ -27,4 +27,21 @@ export const ordersService = {
   update: (id, orderData) => api.put(`/orders/${id}`, orderData),
 };
 
+export const servicesService = {
+  getAll: (params) => api.get('/services', { params }),
+  getById: (id) => api.get(`/services/${id}`),
+};
+
+export const providersService = {
+  getAll: (params) => api.get('/providers', { params }),
+  getById: (id) => api.get(`/providers/${id}`),
+};
+
+export const bookingsService = {
+  create: (bookingData) => api.post('/bookings', bookingData),
+  getAll: (params) => api.get('/bookings', { params }),
+  getById: (id) => api.get(`/bookings/${id}`),
+  update: (id, data) => api.put(`/bookings/${id}`, data),
+};
+
 export default api;

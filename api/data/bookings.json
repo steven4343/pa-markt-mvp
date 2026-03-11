@@ -1,0 +1,15 @@
+[
+  {
+    "id": "booking1",
+    "serviceId": "service1",
+    "providerId": "sp1",
+    "consumerId": "user1",
+    "status": "pending",
+    "date": "2024-03-15",
+    "time": "10:00",
+    "address": "123 Main St",
+    "notes": "Leaking kitchen faucet",
+    "price": 50,
+    "createdAt": "2024-03-10T10:00:00Z"
+  }
+]

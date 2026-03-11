@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sp1",
+    "email": "provider@pamarkert.com",
+    "password": "password123",
+    "name": "Mike Johnson",
+    "role": "provider",
+    "phone": "+1234567890",
+    "serviceType": "plumbing",
+    "businessName": "Mike's Plumbing Services",
+    "description": "Professional plumbing services for homes and businesses",
+    "location": "Downtown",
+    "rating": 4.5,
+    "reviews": [],
+    "bookings": []
+  },
+  {
+    "id": "sp2",
+    "email": "electrician@pamarkert.com",
+    "password": "password123",
+    "name": "Sarah Williams",
+    "role": "provider",
+    "phone": "+1234567891",
+    "serviceType": "electrical",
+    "businessName": "Sarah's Electric",
+    "description": "Licensed electrician specializing in residential wiring",
+    "location": "Westside",
+    "rating": 4.8,
+    "reviews": [],
+    "bookings": []
+  },
+  {
+    "id": "sp3",
+    "email": "cleaner@pamarkert.com",
+    "password": "password123",
+    "name": "Jane Smith",
+    "role": "provider",
+    "phone": "+1234567892",
+    "serviceType": "cleaning",
+    "businessName": "Clean Home Services",
+    "description": "Professional home and office cleaning services",
+    "location": "Eastside",
+    "rating": 4.7,
+    "reviews": [],
+    "bookings": []
+  }
+]

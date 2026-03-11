@@ -194,7 +194,13 @@ const authController = {
     try {
       const { email, password } = req.body;
       const users = readJSON('users.json');
-      const user = users.find(u => u.email === email && u.password === password);
+      const serviceProviders = readJSON('serviceProviders.json');
+      
+      let user = users.find(u => u.email === email && u.password === password);
+      
+      if (!user) {
+        user = serviceProviders.find(u => u.email === email && u.password === password);
+      }
       
       if (!user) {
         return res.status(401).json({ error: 'Invalid credentials' });
@@ -208,9 +214,182 @@ const authController = {
   }
 };
 
+const servicesController = {
+  getAll: (req, res) => {
+    try {
+      let services = readJSON('services.json');
+      const { category, providerId, search } = req.query;
+      
+      if (category) {
+        services = services.filter(s => s.category === category);
+      }
+      
+      if (providerId) {
+        services = services.filter(s => s.providerId === providerId);
+      }
+      
+      if (search) {
+        const searchLower = search.toLowerCase();
+        services = services.filter(s => 
+          s.name.toLowerCase().includes(searchLower) ||
+          s.description.toLowerCase().includes(searchLower)
+        );
+      }
+      
+      res.json(services);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  getById: (req, res) => {
+    try {
+      const services = readJSON('services.json');
+      const service = services.find(s => s.id === req.params.id);
+      if (!service) {
+        return res.status(404).json({ error: 'Service not found' });
+      }
+      res.json(service);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  }
+};
+
+const providersController = {
+  getAll: (req, res) => {
+    try {
+      let providers = readJSON('serviceProviders.json');
+      const { serviceType, location, search } = req.query;
+      
+      if (serviceType) {
+        providers = providers.filter(p => p.serviceType === serviceType);
+      }
+      
+      if (location) {
+        providers = providers.filter(p => p.location.toLowerCase().includes(location.toLowerCase()));
+      }
+      
+      if (search) {
+        const searchLower = search.toLowerCase();
+        providers = providers.filter(p => 
+          p.name.toLowerCase().includes(searchLower) ||
+          p.businessName.toLowerCase().includes(searchLower)
+        );
+      }
+      
+      const { password, ...providersWithoutPassword } = providers.map(p => ({...p}));
+      res.json(providersWithoutPassword);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  getById: (req, res) => {
+    try {
+      const providers = readJSON('serviceProviders.json');
+      const provider = providers.find(p => p.id === req.params.id);
+      if (!provider) {
+        return res.status(404).json({ error: 'Provider not found' });
+      }
+      const { password, ...providerWithoutPassword } = provider;
+      res.json(providerWithoutPassword);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  getMyProfile: (req, res) => {
+    try {
+      const providers = readJSON('serviceProviders.json');
+      const provider = providers.find(p => p.id === req.params.id);
+      if (!provider) {
+        return res.status(404).json({ error: 'Provider not found' });
+      }
+      const { password, ...providerWithoutPassword } = provider;
+      res.json(providerWithoutPassword);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  }
+};
+
+const bookingsController = {
+  getAll: (req, res) => {
+    try {
+      let bookings = readJSON('bookings.json');
+      const { providerId, consumerId, status } = req.query;
+      
+      if (providerId) {
+        bookings = bookings.filter(b => b.providerId === providerId);
+      }
+      
+      if (consumerId) {
+        bookings = bookings.filter(b => b.consumerId === consumerId);
+      }
+      
+      if (status) {
+        bookings = bookings.filter(b => b.status === status);
+      }
+      
+      res.json(bookings);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  getById: (req, res) => {
+    try {
+      const bookings = readJSON('bookings.json');
+      const booking = bookings.find(b => b.id === req.params.id);
+      if (!booking) {
+        return res.status(404).json({ error: 'Booking not found' });
+      }
+      res.json(booking);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  create: (req, res) => {
+    try {
+      const bookings = readJSON('bookings.json');
+      const newBooking = {
+        id: 'booking' + Date.now(),
+        ...req.body,
+        status: 'pending',
+        createdAt: new Date().toISOString()
+      };
+      bookings.push(newBooking);
+      writeJSON('bookings.json', bookings);
+      res.status(201).json(newBooking);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  },
+
+  update: (req, res) => {
+    try {
+      const bookings = readJSON('bookings.json');
+      const index = bookings.findIndex(b => b.id === req.params.id);
+      if (index === -1) {
+        return res.status(404).json({ error: 'Booking not found' });
+      }
+      bookings[index] = { ...bookings[index], ...req.body };
+      writeJSON('bookings.json', bookings);
+      res.json(bookings[index]);
+    } catch (error) {
+      res.status(500).json({ error: error.message });
+    }
+  }
+};
+
 module.exports = {
   storesController,
   productsController,
   ordersController,
-  authController
+  authController,
+  servicesController,
+  providersController,
+  bookingsController
 };
