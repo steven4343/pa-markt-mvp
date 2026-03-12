@@ -5,7 +5,7 @@
     "name": "iPhone 11",
     "description": "Latest iPhone 11 with amazing camera",
     "price": 699.99,
-    "image": "apple 11",
+    "image": "apple 11.jpg",
     "category": "Electronics"
   },
   {
@@ -14,7 +14,7 @@
     "name": "iPhone X",
     "description": "Classic iPhone X in excellent condition",
     "price": 549.99,
-    "image": "apple X",
+    "image": "apple X.jpg",
     "category": "Electronics"
   },
   {
@@ -23,7 +23,7 @@
     "name": "Smartphone Pro",
     "description": "High-end smartphone with all features",
     "price": 899.99,
-    "image": "cell smart",
+    "image": "cell smart.jpg",
     "category": "Electronics"
   },
   {
@@ -32,7 +32,7 @@
     "name": "Flip Mini",
     "description": "Compact flip phone for easy use",
     "price": 199.99,
-    "image": "flipmini mobile",
+    "image": "flipmini mobile.jpg",
     "category": "Electronics"
   },
   {
@@ -41,7 +41,7 @@
     "name": "Foldable Mobile",
     "description": "Latest foldable technology",
     "price": 1299.99,
-    "image": "foldable mobile",
+    "image": "foldable mobile.jpg",
     "category": "Electronics"
   },
   {
@@ -50,7 +50,7 @@
     "name": "Google Pixel",
     "description": "Pure Android experience",
     "price": 599.99,
-    "image": "google pixel",
+    "image": "google pixel.jpg",
     "category": "Electronics"
   },
   {
@@ -59,7 +59,7 @@
     "name": "Nokia Classic",
     "description": "Durable classic phone",
     "price": 89.99,
-    "image": "nokia",
+    "image": "nokia.jpg",
     "category": "Electronics"
   },
   {
@@ -68,7 +68,7 @@
     "name": "PC Battery",
     "description": "Long-lasting laptop battery",
     "price": 49.99,
-    "image": "pc batter",
+    "image": "pc batter.jpg",
     "category": "Electronics"
   },
   {
@@ -77,7 +77,7 @@
     "name": "Phone Battery",
     "description": "Replacement phone battery",
     "price": 29.99,
-    "image": "phone batter",
+    "image": "phone batter.jpg",
     "category": "Electronics"
   },
   {
@@ -86,7 +86,7 @@
     "name": "Motherboard",
     "description": "High-performance motherboard",
     "price": 149.99,
-    "image": "motherboard",
+    "image": "motherboard.jpg",
     "category": "Electronics"
   },
   {
@@ -95,7 +95,7 @@
     "name": "RAM 8GB",
     "description": "Fast DDR4 RAM module",
     "price": 59.99,
-    "image": "ram",
+    "image": "ram.jpg",
     "category": "Electronics"
   },
   {
@@ -104,7 +104,7 @@
     "name": "ROM 256GB",
     "description": "High-speed storage drive",
     "price": 79.99,
-    "image": "rom",
+    "image": "rom.jpg",
     "category": "Electronics"
   },
   {
@@ -113,7 +113,7 @@
     "name": "Computer Components",
     "description": "Complete set of PC components",
     "price": 399.99,
-    "image": "com components",
+    "image": "com components.jpg",
     "category": "Electronics"
   },
   {
@@ -122,7 +122,7 @@
     "name": "Computer Parts",
     "description": "Quality computer parts",
     "price": 299.99,
-    "image": "computerparts",
+    "image": "computerparts.jpg",
     "category": "Electronics"
   },
   {
@@ -131,7 +131,7 @@
     "name": "Fresh Bananas",
     "description": "Organic bananas fresh from farm",
     "price": 2.99,
-    "image": "banaan",
+    "image": "banaan.jpg",
     "category": "Groceries"
   },
   {
@@ -140,7 +140,7 @@
     "name": "Farm Eggs",
     "description": "Fresh eggs from local farms",
     "price": 4.99,
-    "image": "eggs",
+    "image": "eggs.jpg",
     "category": "Groceries"
   },
   {
@@ -149,7 +149,7 @@
     "name": "Mixed Eggs",
     "description": "Assorted eggs pack",
     "price": 5.99,
-    "image": "eeggs",
+    "image": "eeggs.jpg",
     "category": "Groceries"
   },
   {
@@ -158,7 +158,7 @@
     "name": "Fresh Fruits",
     "description": "Mix of seasonal fruits",
     "price": 8.99,
-    "image": "fruits",
+    "image": "fruits.jpg",
     "category": "Groceries"
   },
   {
@@ -167,7 +167,7 @@
     "name": "Vegetables",
     "description": "Fresh organic vegetables",
     "price": 6.99,
-    "image": "veges",
+    "image": "veges.jpg",
     "category": "Groceries"
   },
   {
@@ -176,7 +176,7 @@
     "name": "Spices Pack",
     "description": "Assorted spices for cooking",
     "price": 7.99,
-    "image": "spices",
+    "image": "spices.jpg",
     "category": "Groceries"
   },
   {
@@ -185,7 +185,7 @@
     "name": "More Beans",
     "description": "Protein-rich beans",
     "price": 3.99,
-    "image": "morebean",
+    "image": "morebean.jpg",
     "category": "Groceries"
   },
   {
@@ -194,7 +194,7 @@
     "name": "Peanut Butter",
     "description": "Creamy peanut butter",
     "price": 4.49,
-    "image": "peanut better",
+    "image": "peanut better.jpg",
     "category": "Groceries"
   },
   {
@@ -203,7 +203,7 @@
     "name": "Mayonnaise",
     "description": "Premium mayonnaise",
     "price": 3.49,
-    "image": "mayonaise",
+    "image": "mayonaise.jpg",
     "category": "Groceries"
   },
   {
@@ -212,7 +212,7 @@
     "name": "Mozoe Juice",
     "description": "Refreshing fruit juice",
     "price": 2.49,
-    "image": "mozoe juice",
+    "image": "mozoe juice.jpg",
     "category": "Groceries"
   },
   {
@@ -221,7 +221,7 @@
     "name": "Tides Detergent",
     "description": "Cleaning detergent",
     "price": 8.99,
-    "image": "tides",
+    "image": "tides.jpg",
     "category": "Groceries"
   },
   {
@@ -230,7 +230,7 @@
     "name": "Ragaram Rice",
     "description": "Premium quality rice",
     "price": 15.99,
-    "image": "ragaram",
+    "image": "ragaram.jpg",
     "category": "Groceries"
   },
   {
@@ -239,7 +239,7 @@
     "name": "Wholesale Grocery Bundle",
     "description": "Bulk grocery items",
     "price": 49.99,
-    "image": "wholesale grocery",
+    "image": "wholesale grocery.jpg",
     "category": "Groceries"
   },
   {
@@ -248,7 +248,7 @@
     "name": "Grocery Essentials",
     "description": "Daily grocery items",
     "price": 19.99,
-    "image": "grocery",
+    "image": "grocery.jpg",
     "category": "Groceries"
   },
   {
@@ -257,7 +257,7 @@
     "name": "SL Perfume",
     "description": "Long-lasting fragrance",
     "price": 24.99,
-    "image": "Sl perfume",
+    "image": "Sl perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -266,7 +266,7 @@
     "name": "Baby Lotion",
     "description": "Gentle baby care lotion",
     "price": 8.99,
-    "image": "babylotion",
+    "image": "babylotion.jpg",
     "category": "Beauty"
   },
   {
@@ -275,7 +275,7 @@
     "name": "Charm Perfume",
     "description": "Charming scent for women",
     "price": 29.99,
-    "image": "charm perfum",
+    "image": "charm perfum.jpg",
     "category": "Beauty"
   },
   {
@@ -284,7 +284,7 @@
     "name": "Body Lotion",
     "description": "Moisturizing body lotion",
     "price": 7.99,
-    "image": "lotion",
+    "image": "lotion.jpg",
     "category": "Beauty"
   },
   {
@@ -293,7 +293,7 @@
     "name": "Lotion Supplies",
     "description": "Various lotion products",
     "price": 19.99,
-    "image": "lotion supplies",
+    "image": "lotion supplies.jpg",
     "category": "Beauty"
   },
   {
@@ -302,7 +302,7 @@
     "name": "Nashwa Perfume",
     "description": "Exotic fragrance",
     "price": 34.99,
-    "image": "nashwa perfume",
+    "image": "nashwa perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -311,7 +311,7 @@
     "name": "Ninea Lotion",
     "description": "Skin care lotion",
     "price": 9.99,
-    "image": "ninea lotion",
+    "image": "ninea lotion.jpg",
     "category": "Beauty"
   },
   {
@@ -320,7 +320,7 @@
     "name": "Odole Perfume",
     "description": "Fresh fragrance",
     "price": 27.99,
-    "image": "odole perfume",
+    "image": "odole perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -329,7 +329,7 @@
     "name": "Pink Perfume",
     "description": "Floral scent",
     "price": 22.99,
-    "image": "ppink perfume",
+    "image": "ppink perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -338,7 +338,7 @@
     "name": "Sovazze Perfume",
     "description": "Luxury fragrance",
     "price": 39.99,
-    "image": "sovazze perfume",
+    "image": "sovazze perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -347,7 +347,7 @@
     "name": "Uvage Perfume",
     "description": "Designer perfume",
     "price": 44.99,
-    "image": "uvage perfume",
+    "image": "uvage perfume.jpg",
     "category": "Beauty"
   },
   {
@@ -356,7 +356,7 @@
     "name": "Vaseline",
     "description": "Moisturizing jelly",
     "price": 5.99,
-    "image": "vaseline",
+    "image": "vaseline.jpg",
     "category": "Beauty"
   },
   {
@@ -365,7 +365,7 @@
     "name": "Aveena Lotion",
     "description": "Oat-based skincare",
     "price": 11.99,
-    "image": "aveena",
+    "image": "aveena.jpg",
     "category": "Beauty"
   },
   {
@@ -374,7 +374,7 @@
     "name": "Bolts and Nuts",
     "description": "Assorted hardware fasteners",
     "price": 12.99,
-    "image": "bolts and nuts",
+    "image": "bolts and nuts.jpg",
     "category": "Hardware"
   },
   {
@@ -383,7 +383,7 @@
     "name": "Cable Tiles",
     "description": "Cable management tiles",
     "price": 8.99,
-    "image": "cable tiles",
+    "image": "cable tiles.avif",
     "category": "Hardware"
   },
   {
@@ -392,7 +392,7 @@
     "name": "Industrial Glue",
     "description": "Strong adhesive",
     "price": 6.99,
-    "image": "glue",
+    "image": "glue.jpg",
     "category": "Hardware"
   },
   {
@@ -401,7 +401,7 @@
     "name": "Hardware Appliances",
     "description": "Various hardware tools",
     "price": 89.99,
-    "image": "hardware apliances",
+    "image": "hardware apliances.jpg",
     "category": "Hardware"
   },
   {
@@ -410,7 +410,7 @@
     "name": "Pipe Co",
     "description": "Quality pipes",
     "price": 24.99,
-    "image": "pipeco",
+    "image": "pipeco.avif",
     "category": "Hardware"
   },
   {
@@ -419,7 +419,7 @@
     "name": "Pipe Connector",
     "description": "Pipe fitting connector",
     "price": 4.99,
-    "image": "pipeconnector",
+    "image": "pipeconnector.jpg",
     "category": "Hardware"
   },
   {
@@ -428,7 +428,7 @@
     "name": "Building Pipes",
     "description": "Construction pipes",
     "price": 34.99,
-    "image": "pipes",
+    "image": "pipes.jpg",
     "category": "Hardware"
   },
   {
@@ -437,7 +437,7 @@
     "name": "Stove Parts",
     "description": "Replacement stove parts",
     "price": 19.99,
-    "image": "stove parts",
+    "image": "stove parts.jpg",
     "category": "Hardware"
   },
   {
@@ -446,7 +446,7 @@
     "name": "Wire Cutter",
     "description": "Professional wire cutting tool",
     "price": 14.99,
-    "image": "wirecuttuter",
+    "image": "wirecuttuter.jpg",
     "category": "Hardware"
   },
   {
@@ -455,7 +455,7 @@
     "name": "HH Drive",
     "description": "Heavy duty drive",
     "price": 29.99,
-    "image": "HH drive",
+    "image": "HH drive.jpg",
     "category": "Hardware"
   },
   {
@@ -464,7 +464,7 @@
     "name": "RRAM",
     "description": "Memory module",
     "price": 39.99,
-    "image": "RRam",
+    "image": "RRam.jpg",
     "category": "Hardware"
   },
   {
@@ -473,7 +473,7 @@
     "name": "Suppliers Bundle",
     "description": "Hardware supplier pack",
     "price": 99.99,
-    "image": "suppliers",
+    "image": "suppliers.jpg",
     "category": "Hardware"
   },
   {
@@ -482,7 +482,7 @@
     "name": "Trolley",
     "description": "Utility trolley",
     "price": 45.99,
-    "image": "trolley",
+    "image": "trolley.jpg",
     "category": "Hardware"
   },
   {
@@ -491,7 +491,7 @@
     "name": "Economy Wholesale",
     "description": "Bulk hardware items",
     "price": 149.99,
-    "image": "economy wholesale",
+    "image": "economy wholesale.jpg",
     "category": "Hardware"
   }
 ]
