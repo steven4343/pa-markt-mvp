@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList, TouchableOpacity, TextInput, Image } from 'react-native';
+import { View, Text, StyleSheet, FlatList, TouchableOpacity, TextInput, ActivityIndicator, SafeAreaView } from 'react-native';
 import { servicesService, providersService } from '../services/api';
 
 const SERVICE_CATEGORIES = [
@@ -16,27 +16,28 @@ const ServicesScreen = ({ navigation }) => {
   const [providers, setProviders] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [search, setSearch] = useState('');
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    loadServices();
-    loadProviders();
+    loadData();
   }, []);
 
-  const loadServices = async () => {
+  const loadData = async () => {
+    setLoading(true);
+    setError(null);
     try {
-      const response = await servicesService.getAll({});
-      setServices(response.data);
-    } catch (error) {
-      console.error('Error loading services:', error);
-    }
-  };
-
-  const loadProviders = async () => {
-    try {
-      const response = await providersService.getAll({});
-      setProviders(response.data);
-    } catch (error) {
-      console.error('Error loading providers:', error);
+      const [servicesRes, providersRes] = await Promise.all([
+        servicesService.getAll({}),
+        providersService.getAll({})
+      ]);
+      setServices(servicesRes.data);
+      setProviders(providersRes.data);
+    } catch (err) {
+      console.error('Error loading services:', err);
+      setError('Failed to load services. Make sure API is running.');
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -66,8 +67,28 @@ const ServicesScreen = ({ navigation }) => {
     );
   };
 
+  if (loading) {
+    return (
+      <View style={styles.centerContainer}>
+        <ActivityIndicator size="large" color="#2196F3" />
+        <Text style={styles.loadingText}>Loading services...</Text>
+      </View>
+    );
+  }
+
+  if (error) {
+    return (
+      <View style={styles.centerContainer}>
+        <Text style={styles.errorText}>{error}</Text>
+        <TouchableOpacity style={styles.retryButton} onPress={loadData}>
+          <Text style={styles.retryButtonText}>Retry</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.searchContainer}>
         <TextInput
           style={styles.searchInput}
@@ -115,7 +136,7 @@ const ServicesScreen = ({ navigation }) => {
           <Text style={styles.emptyText}>No services found</Text>
         }
       />
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -123,6 +144,32 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#f5f5f5',
+  },
+  centerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#f5f5f5',
+  },
+  loadingText: {
+    marginTop: 10,
+    color: '#666',
+  },
+  errorText: {
+    color: '#F44336',
+    textAlign: 'center',
+    padding: 20,
+  },
+  retryButton: {
+    marginTop: 15,
+    paddingHorizontal: 30,
+    paddingVertical: 10,
+    backgroundColor: '#2196F3',
+    borderRadius: 8,
+  },
+  retryButtonText: {
+    color: '#fff',
+    fontWeight: '600',
   },
   searchContainer: {
     padding: 15,
